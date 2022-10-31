@@ -15,7 +15,7 @@ export default function FooterSocial() {
   return (
     <div className={classes.footer}>
       <Container className={classes.inner}>
-        <Text>Made with ❤️ in Hong Kong</Text>
+        <Text>Made with ❤️ in Virginia</Text>
         <Group spacing={0} className={classes.links} position='right' noWrap>
           <ActionIcon
             component={Link}
