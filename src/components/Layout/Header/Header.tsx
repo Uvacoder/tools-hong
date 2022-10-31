@@ -85,7 +85,7 @@ export default function Header() {
                 color='gray'
                 className={classes.button}
                 component={Link}
-                href='https://github.com/tszhong0411/tools.honghong.me'
+                href='https://github.com/uvacoder/tools-hong'
               >
                 <IconBrandGithub size={18} />
               </Button>
