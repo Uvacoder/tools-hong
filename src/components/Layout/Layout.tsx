@@ -16,19 +16,19 @@ export default function Layout({
   return (
     <>
       <NextSeo
-        titleTemplate='%s | 小康 Tools'
-        defaultTitle='小康 Tools'
+        titleTemplate='Tools'
+        defaultTitle='Tools'
         description='Tools to help you.'
-        canonical={`https://tools.honghong.me${router.asPath}`}
+        canonical={`https://tools-hong.vercel.app${router.asPath}`}
         twitter={{
           cardType: 'summary_large_image',
-          site: '@TszhongLai0411',
-          handle: '@TszhongLai0411',
+          site: '@VaLandscapes',
+          handle: '@VaLandscapes',
         }}
         openGraph={{
-          url: `https://tools.honghong.me${router.asPath}`,
+          url: `https://tools-hong.vercel.app${router.asPath}`,
           type: 'website',
-          title: '小康 Tools',
+          title: 'Tools',
           description: 'Tools to help you.',
           images: [
             {
